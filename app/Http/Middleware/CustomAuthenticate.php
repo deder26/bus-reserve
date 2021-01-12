@@ -17,7 +17,7 @@ class CustomAuthenticate
     public function handle($request, Closure $next)
     {
 
-        if (! Auth::guard('customLogin')->check()) {
+        if (! Auth::guard('custom')->check()) {
             return redirect('/custom/login');
         }
 

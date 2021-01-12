@@ -11,21 +11,19 @@ class CustomLoginController extends Controller
 {
 
     use AuthenticatesUsers;
-    public function loginForm()
+
+    public function showLoginForm()
     {
         return view('custom.login');
     }
 
     public function login(Request $request)
     {
-        $credentials = $request->only('staff_no', 'password');
         $user = MtStaff::where(['staff_no'=>$request->staff_no,'password'=>$request->password])->first();
-        // if(Auth::guard('customLogin')->attempt($credentials, $request->remember))
         if($user)
         {
 
-            Auth::guard('customLogin')->login($user);
-
+            Auth::guard('custom')->login($user);
 
             return redirect()->route('custom.home');
         }

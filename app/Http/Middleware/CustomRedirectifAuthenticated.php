@@ -7,7 +7,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class CustomRedirectIfAuthenticated
+class CustomRedirectifAuthenticated
 {
     /**
      * Handle an incoming request.
@@ -20,7 +20,7 @@ class CustomRedirectIfAuthenticated
     public function handle(Request $request, Closure $next, ...$guards)
     {
            //dd(Auth::guard('customLogin')->check());
-            if (Auth::guard('customLogin')->check()) {
+            if (Auth::guard('custom')->check()) {
                 return redirect()->route('custom.home');
             }
         return $next($request);
