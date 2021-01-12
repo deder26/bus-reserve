@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::group(['middleware' => 'custom.auth'], function () {
     Route::get('/custom/home',[App\Http\Controllers\AdminController::class, 'index'])->name('custom.home');
 });

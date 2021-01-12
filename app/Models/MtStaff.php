@@ -40,6 +40,7 @@ class MtStaff extends Authenticatable
      *
      * @var array
      */
+    protected $primaryKey = 'staff_no';
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
