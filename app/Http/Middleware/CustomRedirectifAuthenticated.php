@@ -19,7 +19,6 @@ class CustomRedirectifAuthenticated
      */
     public function handle(Request $request, Closure $next, ...$guards)
     {
-           //dd(Auth::guard('customLogin')->check());
             if (Auth::guard('custom')->check()) {
                 return redirect()->route('custom.home');
             }

@@ -11,11 +11,10 @@ class AdminController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-
-        $this->middleware('custom.auth');
-    }
+//    public function __construct()
+//    {
+//        $this->middleware('custom.auth');
+//    }
 
     /**
      * Show the application dashboard.
