@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f46e160f-3bb3-418e-b9bc-4dcf13b6a887" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomLoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomLoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MtStaff.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/MtStaff.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/custom/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/custom/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -132,6 +128,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mybi98nHEu5gcXuQ4BUts0nR8B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -158,6 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610468901720</updated>
       <workItem from="1610468902910" duration="12009000" />
+      <workItem from="1610518580786" duration="41000" />
     </task>
     <servers />
   </component>
@@ -173,6 +171,10 @@
       <screen x="0" y="0" width="1366" height="1496" />
     </state>
     <state x="416" y="889" width="524" height="479" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.1496@0.0.1366.1496" timestamp="1610475935117" />
+    <state x="443" y="847" width="469" height="562" key="git4idea.branch.GitSmartOperationDialog" timestamp="1610518264134">
+      <screen x="0" y="768" width="1366" height="768" />
+    </state>
+    <state x="443" y="847" width="469" height="562" key="git4idea.branch.GitSmartOperationDialog/0.768.1366.768/0.0.1366.768@0.768.1366.768" timestamp="1610518264134" />
     <state x="346" y="817" width="672" height="678" key="search.everywhere.popup" timestamp="1610480436800">
       <screen x="0" y="0" width="1366" height="1496" />
     </state>
